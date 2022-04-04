@@ -18,7 +18,7 @@ maxfreq = [0]
 a = int(0)
 b = int(0)
 c = 0
-while n < 13:
+while n < 25:
     if b == 3 and a == 4:
         a = 0
         b = 0

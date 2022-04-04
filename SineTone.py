@@ -6,7 +6,7 @@ fa = float(freqcal[0])
 fb = float(freqcal[1])
 n = 1
 nqn = []
-while n < 24:
+while n < 25:
     f1a = fa/n
     f1b = fb/(n+1)
     ratio = f1b/f1a
