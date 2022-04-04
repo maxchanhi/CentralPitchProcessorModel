@@ -10,11 +10,11 @@ The fundamental frequency is f1.
 n is number of partials.
 
 The fa and fb frequencies are considered two successive harmonics of fa = n*f1 and fb = (n+1)*f1.  
-For example, the main, 1000Hz and 800Hz are playing at the same time, in the previous article, the result is 200Hz, 
+For example, the SineTone, 1000Hz and 800Hz are playing at the same time, in the previous article, the result is 200Hz, 
 and the program returns a perfect fit message. 
 If the pair with no harmonic relationship, the program tries all possible partials from 1 to 24, to find the closest result of the fundamental.
 
-The main v2 can work with complex harmonic partials and inharmonic partials, up the 4 partials, both found down in harmonic series patterns. 
+The Complex can work with complex harmonic partials and inharmonic partials, up the 4 partials, both found down in harmonic series patterns. 
 All individual partials are treated as a pair of sine tones, performing the same process above and finding downward for the possible fundamentals.
 For inharmonic pairs, the program may suggest possible results, sorting from high to low. 
 Higher frequency is preferred since the loudness is higher according to the equal-loudness contour.
